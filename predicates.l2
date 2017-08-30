@@ -1,0 +1,25 @@
+has_state;                              {OBJECT, STATE}
+is_at_location;                         {OBJECT, REAL, REAL}
+has_distance_to_ground;                 {OBJECT, REAL}
+has_vertical_speed;                     {OBJECT, REAL}
+has_horizontal_speed;                   {OBJECT, REAL}
+has_time_to_ground;                     {OBJECT, REAL}
+has_value_for;                          {OBJECT, REAL, CHARACTERISTIC}
+is_of_type;                             {OBJECT, TYPE}
+has_blinking;                           {OBJECT, BOOLEAN}
+has_size;                               {OBJECT, SIZE}
+has_brightness;                         {OBJECT, BRIGHTNESS}
+has_potential_attention;                {OBJECT, REAL}
+gaze_at_location;                       {REAL, REAL}
+has_current_attention_contribution;     {OBJECT, REAL}
+has_normalised_attention_contribution;  {OBJECT, REAL}
+has_attention_level;                    {OBJECT, REAL}
+has_old_attention_level;                {OBJECT, REAL}
+has_urgency;                            {OBJECT, REAL}
+has_discrepancy;                        {OBJECT, REAL}
+sum;                                    {OBJECT, BOOLEAN}
+take_action_on;                         {OBJECT, BOOLEAN}                
+perform_action_type;                    {OBJECT, ACTION}
+belief;                                 {AGENT, belief_over}
+desire;                                 {AGENT, desire_over}
+assessment;                             {AGENT, assessment_over}

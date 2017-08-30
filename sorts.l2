@@ -1,0 +1,11 @@
+OBJECT;                     {O1, O2, O3, O4, O5}
+STATE;                      {present, landed, shot}
+CHARACTERISTIC;             {time_to_ground, type, blinking, brightness, size}
+TYPE;                       {new, sum_visible, ally, enemy}
+SIZE;                       {normal, big}
+BRIGHTNESS;                 {low, high}
+ACTION;                     {fire, right_button, left_button, mouseclick, nothing}
+belief_over;                {<has_time_to_ground>, <has_value_for>, <has_potential_attention>, <has_current_attention_contribution>, <has_normalised_attention_contribution>, <has_attention_level>, <has_old_attention_level>, <has_discrepancy>, <has_urgency>}
+desire_over;                {<has_discrepancy>}
+assessment_over;            {<has_discrepancy>}
+AGENT;                      {agent}

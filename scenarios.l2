@@ -1,0 +1,85 @@
+% Starting state of object O1 at time point 1
+    has_state{O1, present};             1
+    is_at_location{O1, 20, 100};        1       
+    has_distance_to_ground{O1, 100};    1
+    has_vertical_speed{O1, 3};          1
+    has_horizontal_speed{O1, 2};        1
+    has_old_attention_level{O1, 0.5};   1
+    is_of_type{O1, new};                1
+    has_blinking{O1, false};            1
+    has_size{O1, normal};               1
+    has_brightness{O1, low};            1
+    sum{O1, true};                      1
+    desire{agent, has_discrepancy{O1, 0}};   [1:Inf]
+    belief{agent, has_old_attention_level{O1, 0.5}};    1
+
+% Starting state of object O2 at time point 1
+    has_state{O2, present};             1
+    is_at_location{O2, 77, 100};        1       
+    has_distance_to_ground{O2, 100};    1
+    has_vertical_speed{O2, 5};          1
+    has_horizontal_speed{O2, 3};        1
+    has_old_attention_level{O2, 0.5};   1
+    is_of_type{O2, new};                1
+    has_blinking{O2, false};            1
+    has_size{O2, normal};               1
+    has_brightness{O2, low};            1   
+    sum{O2, true};                      1    
+    desire{agent, has_discrepancy{O2, 0}};   [1:Inf]
+    belief{agent, has_old_attention_level{O2, 0.5}};    1
+
+% Starting state of object O3 at time point 1
+    has_state{O3, present};             1
+    is_at_location{O3, 51, 100};        1       
+    has_distance_to_ground{O3, 100};    1
+    has_vertical_speed{O3, 4};          1
+    has_horizontal_speed{O3, 10};       1
+    has_old_attention_level{O3, 0.5};   1  
+    is_of_type{O3, new};                1
+    has_blinking{O3, false};            1
+    has_size{O3, normal};               1
+    has_brightness{O3, low};            1
+    sum{O3, false};                     1  
+    desire{agent, has_discrepancy{O3, 0}};   [1:Inf]
+    belief{agent, has_old_attention_level{O3, 0.5}};    1
+
+% Starting state of object O4 at time point 1
+    has_state{O4, present};             1
+    is_at_location{O4, 85, 100};        1       
+    has_distance_to_ground{O4, 100};    1
+    has_vertical_speed{O4, 7};          1
+    has_horizontal_speed{O4, 3};        1
+    has_old_attention_level{O4, 0.5};   1
+    is_of_type{O4, new};                1
+    has_blinking{O4, false};            1
+    has_size{O4, normal};               1
+    has_brightness{O4, low};            1
+    sum{O4, false};                     1       
+    desire{agent, has_discrepancy{O4, 0}};   [1:Inf]
+    belief{agent, has_old_attention_level{O4, 0.5}};    1
+
+% Starting state of object O5 at time point 1
+    has_state{O5, present};             1
+    is_at_location{O5, 70, 100};        1       
+    has_distance_to_ground{O5, 100};    1
+    has_vertical_speed{O5, 9};          1
+    has_horizontal_speed{O5, 1};        1
+    has_old_attention_level{O5, 0.5};   1
+    is_of_type{O5, new};                1
+    has_blinking{O5, false};            1
+    has_size{O5, normal};               1
+    has_brightness{O5, low};            1 
+    sum{O5, false};                     1 
+    desire{agent, has_discrepancy{O5, 0}};   [1:Inf]
+    belief{agent, has_old_attention_level{O5, 0.5}};    1
+
+gaze_at_location{50, 50};           1
+gaze_at_location{60, 60};           2
+gaze_at_location{35, 50};           3
+gaze_at_location{80, 50};           4
+gaze_at_location{65, 12};           5
+gaze_at_location{35, 54};           6
+gaze_at_location{50, 50};           7
+gaze_at_location{60, 20};           8
+gaze_at_location{20, 40};           9
+gaze_at_location{25, 45};           10
